@@ -339,4 +339,8 @@ public class FingerprintDialog extends AnimatedDialog<FingerprintDialog> {
             setStatus(R.string.fingerprint_state_scanning, statusScanningColor, R.drawable.fingerprint, iconScanningColor, iconCircleScanningColor);
         }
     };
+    
+    public void dismissDialog(){
+        dialog.dismiss();
+    }
 }
